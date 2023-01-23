@@ -1,0 +1,5 @@
+2023-01-23 15:49:14.156493- Optimizer: adam- Epoch number: 100- batch_size:32-MSE: 29.6847
+2023-01-23 15:49:40.296074- Optimizer: adam- Epoch number: 100- batch_size:32-MSE: 38.4320
+2023-01-23 15:50:04.791111- Optimizer: adam- Epoch number: 100- batch_size:16-MSE: 5.1351
+2023-01-23 15:50:10.933111- Optimizer: adam- Epoch number: 100- batch_size:16-MSE: 30.1493
+2023-01-23 15:50:17.473247- Optimizer: adam- Epoch number: 100- batch_size:16-MSE: 25.8844

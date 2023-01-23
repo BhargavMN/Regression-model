@@ -1,9 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
+import datetime
 
 #from sklearn.model_selection import train_test_split
-
+#log function to log the results for every time the model is run.
+def log(error,MSE,opt,n_epochs,n_batch):
+    with open('logs.txt','a')as file:
+        file.write(f"{datetime.datetime.now()}- Optimizer: {opt}- Epoch number: {n_epochs:}- batch_size:{n_batch:}-MSE: {MSE:.4f}\n")
 
 
 # Data set generation
@@ -20,18 +24,26 @@ x_learning, x_testing=x[:sample_length],x[sample_length:]
 y_learning, y_testing=noisey_y[:sample_length],noisey_y[sample_length:]
 
 #setting up the model. 
+opt='adam'
+los='mse'
 model=tf.keras.Sequential()
 model.add(tf.keras.layers.Dense(1,input_shape=(1,)))
-model.compile(optimizer='adam', loss='mse')
+model.compile(optimizer=opt, loss=los)
 
 #training the model. 
-model.fit(x_learning,y_learning,epochs=100,batch_size=32)
+n_epochs=100
+n_batch=16
+model.fit(x_learning,y_learning,epochs=n_epochs,batch_size=n_batch)
 
 #estimation
 y_result=model.predict(x_testing)
 #checking for the accuracy of the model
 error=y_result-y_testing
 MSE=np.square(np.mean(error))
+print(error)
+print(MSE)
+
+log(error, MSE, opt, n_epochs, n_batch)
 
 
 #plotting 
