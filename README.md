@@ -12,8 +12,9 @@ The data is then split into two sets: a training set (60% of the data) and a tes
 
 ## Model setup##
 A sequential model is defined with the following architecture:
-   1) One fully-connected layer with 4 neurons, using the ReLU activation function.
-   2)An output layer with 1 neuron.
+   1) One fully-connected layer with 4 neurons, using the ReLU activation function
+   2) An output layer with 1 neuron.
+   
 The model uses the Adam optimizer and the mean squared error (MSE) loss function.
 
 ## Model Training##
