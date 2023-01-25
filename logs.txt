@@ -20,3 +20,36 @@
 2023-01-24 18:49:03.656895- Optimizer: adam- Epoch number: 450- batch_size:32-MSE: 2.0688
 2023-01-24 18:49:39.747815- Optimizer: adam- Epoch number: 450- batch_size:32-MSE: 1.7242
 2023-01-25 22:40:02.695886- Optimizer: adam- Epoch number: 450- batch_size:32-MSE: 18.5795
+2023-01-25 22:42:38.273492- Optimizer: adam- Epoch number: 450- batch_size:32-MSE: 0.7363
+2023-01-25 22:43:05.181985- Optimizer: adam- Epoch number: 300- batch_size:32-MSE: 20.5373
+2023-01-25 22:43:27.440519- Optimizer: adam- Epoch number: 450- batch_size:64-MSE: 9.8095
+2023-01-25 22:43:47.066349- Optimizer: adam- Epoch number: 450- batch_size:32-MSE: 18.6105
+2023-01-25 22:44:05.206946- Optimizer: adam- Epoch number: 450- batch_size:32-MSE: 1.2038
+2023-01-25 22:44:28.295220- Optimizer: adam- Epoch number: 450- batch_size:32-MSE: 19.1645
+2023-01-25 22:48:38.232187- Optimizer: adam- Number of layers: 2- Number of neuron: 3-Epoch number: 450- batch_size:32-MSE: 19.4260
+2023-01-25 22:49:01.625666- Optimizer: adam- Number of layers: 2- Number of neuron: 6-Epoch number: 450- batch_size:32-MSE: 20.9127
+2023-01-25 22:49:24.812287- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:32-MSE: 0.4694
+2023-01-25 22:50:15.068880- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:32-MSE: 1.4071
+2023-01-25 22:50:35.407838- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:32-MSE: 0.6408
+2023-01-25 22:50:59.079954- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:32-MSE: 0.3626
+2023-01-25 22:51:20.093069- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:32-MSE: 0.4292
+2023-01-25 22:51:43.285299- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:32-MSE: 0.0641
+2023-01-25 22:52:16.917847- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:32-MSE: 0.2161
+2023-01-25 22:52:50.878731- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:32-MSE: 1.9567
+2023-01-25 22:53:24.416061- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:32-MSE: 0.3445
+2023-01-25 22:54:09.264169- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 500- batch_size:32-MSE: 0.5799
+2023-01-25 22:54:34.892812- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 500- batch_size:32-MSE: 20.6078
+2023-01-25 22:55:11.447409- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:40-MSE: 0.1005
+2023-01-25 22:55:35.336204- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:40-MSE: 0.1709
+2023-01-25 22:55:58.567216- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:40-MSE: 3.0269
+2023-01-25 22:56:20.827803- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:40-MSE: 2.9989
+2023-01-25 22:56:40.223792- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:40-MSE: 0.5765
+2023-01-25 22:57:16.880296- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:35-MSE: 1.5113
+2023-01-25 22:57:47.624803- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:35-MSE: 0.1350
+2023-01-25 22:58:13.864716- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:35-MSE: 0.2801
+2023-01-25 22:58:35.652035- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:35-MSE: 0.7712
+2023-01-25 22:59:11.637254- Optimizer: adam- Number of layers: 2- Number of neuron: 5-Epoch number: 450- batch_size:35-MSE: 1.1895
+2023-01-25 22:59:40.245723- Optimizer: adam- Number of layers: 2- Number of neuron: 5-Epoch number: 450- batch_size:35-MSE: 2.4603
+2023-01-25 23:00:16.656375- Optimizer: adam- Number of layers: 2- Number of neuron: 4-Epoch number: 450- batch_size:35-MSE: 0.3851
+2023-01-25 23:06:41.782723 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 450 - batch_size:35 - MSE: 4.7844
+2023-01-25 23:07:05.832588 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 450 - batch_size:35 - MSE: 3.1965
