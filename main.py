@@ -27,16 +27,19 @@ y_learning, y_testing=noisey_y[:sample_length],noisey_y[sample_length:]
 opt='adam'
 los='mse'
 model=tf.keras.Sequential()
-model.add(tf.keras.layers.Dense(1,input_shape=(1,)))
+model.add(tf.keras.layers.Dense(2,input_shape=(1,), activation='relu'))
+model.add(tf.keras.layers.Dense(1))
 model.compile(optimizer=opt, loss=los)
 
 #training the model. 
-n_epochs=100
-n_batch=16
+n_epochs=450
+n_batch=32
 model.fit(x_learning,y_learning,epochs=n_epochs,batch_size=n_batch)
 
 #estimation
 y_result=model.predict(x_testing)
+print(y_result)
+
 #checking for the accuracy of the model
 error=y_result-y_testing
 MSE=np.square(np.mean(error))
@@ -47,10 +50,10 @@ log(error, MSE, opt, n_epochs, n_batch)
 
 
 #plotting 
-#plt.plot(x,y)
-#plt.plot(x,noisey_y)
-#plt.show()
-
-# plt.plot(x_testing,y_testing)
-# plt.plot(x_testing,y_result)
+# plt.plot(x,y)
+# plt.plot(x,noisey_y)
 # plt.show()
+
+plt.plot(x_testing,y_testing)
+plt.plot(x_testing,y_result)
+plt.show()
