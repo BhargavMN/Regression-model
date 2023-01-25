@@ -24,7 +24,7 @@ The model is trained on the training data for 500 epochs with a batch size of 35
 The model's performance is evaluated by testing it on the testing data and calculating the MSE and accuracy.
 
 ## Logging
-The error, MSE, optimizer, number of epochs, batch size, number of neurons, and accuracy are logged in a file named logs.txt
+The error, MSE, optimizer, number of epochs, batch size, number of neurons, accuracy, training and prediction time are logged in a file named logs.txt
 
 ## Plotting
 A plot is generated to visualize the true values and predicted values.
