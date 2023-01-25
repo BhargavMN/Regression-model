@@ -2,12 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import datetime
-
+import time
 
 #log function to log the results for every time the model is run.
-def log(error,MSE,opt,n_epochs,n_batch,n_layers,n_neurons,accuracy):
+def log(error,MSE,opt,n_epochs,n_batch,n_layers,n_neurons,accuracy,training_time,prediction_time):
     with open('logs.txt','a')as file:
-        file.write(f"{datetime.datetime.now()} - Optimizer: {opt} - Number of layers: {n_layers} - Number of neuron: {n_neurons} - Epoch number: {n_epochs:} - batch_size:{n_batch:} - MSE: {MSE:.3f} - Accuracy: {accuracy:.3f}\n")
+        file.write(f"{datetime.datetime.now()} - Optimizer: {opt} - Number of layers: {n_layers} - Number of neuron: {n_neurons} - Epoch number: {n_epochs:} - batch_size:{n_batch:} - MSE: {MSE:.3f} - Accuracy: {accuracy:.3f} - Training time: {training_time:.2f}s - Prediction time: {prediction_time:.2f}s \n")
 
 
 # Data set generation
@@ -23,6 +23,7 @@ sample_length =round(0.6*len(x))
 x_learning, x_testing=x[:sample_length],x[sample_length:]
 y_learning, y_testing=noisey_y[:sample_length],noisey_y[sample_length:]
 
+
 #setting up the model. 
 opt='adam'
 los='mse'
@@ -35,11 +36,15 @@ model.compile(optimizer=opt, loss=los)
 #training the model. 
 n_epochs=500
 n_batch=35
+start = time.time()
 model.fit(x_learning,y_learning,epochs=n_epochs,batch_size=n_batch)
-
+end =time.time()
+training_time = end- start
 #estimation
+start = time.time()
 y_result=model.predict(x_testing)
-print(y_result)
+end =time.time()
+prediction_time = end- start
 
 #checking for the accuracy of the model
 error=y_result-y_testing
@@ -47,7 +52,7 @@ MSE=np.mean(error**2)
 accuracy=1-MSE
 print(MSE)
 
-log(error, MSE, opt, n_epochs, n_batch,2,n_n,accuracy)
+log(error, MSE, opt, n_epochs, n_batch,2,n_n,accuracy,training_time,prediction_time)
 
 
 plt.plot(x_testing,y_testing,label='True value')

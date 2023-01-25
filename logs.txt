@@ -68,3 +68,11 @@
 2023-01-25 23:32:06.533690 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 500 - batch_size:35 - MSE: 3.710 - Accuracy: -2.710
 2023-01-25 23:32:29.974658 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 500 - batch_size:35 - MSE: 2.994 - Accuracy: -1.994
 2023-01-25 23:32:52.101486 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 500 - batch_size:35 - MSE: 3.453 - Accuracy: -2.453
+2023-01-25 23:48:08.860775 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 500 - batch_size:35 - MSE: 3.315 - Accuracy: -2.315
+2023-01-25 23:51:16.609942 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 500 - batch_size:35 - MSE: 4.230 - Accuracy: -3.230
+2023-01-26 00:14:48.974359 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 500 - batch_size:35 - MSE: 23.482 - Accuracy: -22.482 - Training time: 11.80s - Prediction time: 0.21s 
+2023-01-26 00:15:13.191820 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 500 - batch_size:35 - MSE: 23.001 - Accuracy: -22.001 - Training time: 12.07s - Prediction time: 0.23s 
+2023-01-26 00:15:42.207880 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 500 - batch_size:35 - MSE: 3.476 - Accuracy: -2.476 - Training time: 12.01s - Prediction time: 0.22s 
+2023-01-26 00:16:04.791281 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 500 - batch_size:35 - MSE: 2.955 - Accuracy: -1.955 - Training time: 12.42s - Prediction time: 0.23s 
+2023-01-26 00:16:43.158858 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 500 - batch_size:35 - MSE: 3.885 - Accuracy: -2.885 - Training time: 21.40s - Prediction time: 0.21s 
+2023-01-26 00:18:35.170676 - Optimizer: adam - Number of layers: 2 - Number of neuron: 4 - Epoch number: 500 - batch_size:35 - MSE: 4.578 - Accuracy: -3.578 - Training time: 21.39s - Prediction time: 0.19s 
